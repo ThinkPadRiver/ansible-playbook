@@ -1,0 +1,5 @@
+-----
+- hosts: all
+  tasks:
+     - name: "install ansible"
+       shell: apt-get install ansible
