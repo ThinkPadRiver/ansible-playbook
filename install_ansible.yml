@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: 172.16.168.6
   tasks:
      - name: "install ansible"
        shell: yum install ansible
